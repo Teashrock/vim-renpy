@@ -88,6 +88,10 @@ syn keyword renpyOperator channel frames loop
 syn keyword renpyStatement voice sustain
 syn keyword renpyOperator sound music
 syn keyword renpyOperator fadein fadeout
+""" NVL Mode
+syn keyword renpyOperator nvl clear
+syn keyword renpyOperator nvl hide
+syn keyword renpyOperator nvl show
 """ Other
 syn keyword renpyStatement define
 syn keyword renpyOperator expression
