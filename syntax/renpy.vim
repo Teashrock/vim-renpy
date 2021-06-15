@@ -235,9 +235,6 @@ syn match pythonFunction "ui\.textbutton"
 syn match pythonFunction "ui\.timer"
 syn match pythonFunction "ui\.\(vbox\|window\)"
 
-""" Attempt to implement classes support
-syn match pythonOperator "class\ /[_a-zA-Z][_a-zA-Z0-9]"
-
 
 "Renpy block headers
 syn region renpyHeader oneline keepend
