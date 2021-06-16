@@ -92,6 +92,8 @@ syn keyword renpyOperator fadein fadeout
 syn keyword renpyOperator nvl clear
 syn keyword renpyOperator nvl hide
 syn keyword renpyOperator nvl show
+""" Translations
+syn keyword renpyOperator translate strings old new
 """ Other
 syn keyword renpyStatement define
 syn keyword renpyOperator expression
